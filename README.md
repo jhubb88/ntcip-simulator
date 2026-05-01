@@ -47,13 +47,7 @@ No build step, no dependencies to install.
 
 ## Deployment
 
-Deployed manually to AWS S3 + CloudFront. There is no CI/CD workflow — sync by hand:
-
-```bash
-aws s3 sync . s3://jimmy-ntcip-simulator \
-  --profile portfolio-user \
-  --exclude ".git/*"
-```
+Deploys automatically on push to main via GitHub Actions (.github/workflows/deploy.yml). S3 sync + CloudFront invalidation handled by the workflow.
 
 **S3 bucket:** `jimmy-ntcip-simulator` (us-east-1)
 
