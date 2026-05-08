@@ -2,7 +2,7 @@
 
 Browser-based simulation of a NEMA dual-ring 8-phase traffic signal controller with a live NTCIP 1202 MIB OID viewer.
 
-**Live demo:** https://d1r8pxnmau5sot.cloudfront.net
+**Live demo:** https://ntcip.jimmyhubbard2.cc
 
 ## Overview
 
