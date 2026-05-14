@@ -4,6 +4,8 @@ Browser-based simulation of a NEMA dual-ring 8-phase traffic signal controller w
 
 **Live demo:** https://ntcip.jimmyhubbard2.cc
 
+**Full documentation:** [PROJECT_MASTER.md](./PROJECT_MASTER.md) — architecture, AWS operational reference, build history, and key decisions
+
 ## Overview
 
 This tool simulates the timing logic of a real-world NEMA dual-ring traffic signal controller — the same type deployed at signalized intersections across the US. It runs entirely in the browser with no server or API calls. The NTCIP Objects tab displays real SNMP OID paths from the NTCIP 1202 standard, with values that update live as the simulation runs, giving ITS engineers and students a hands-on look at how a traffic management center queries a physical controller.
